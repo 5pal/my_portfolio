@@ -7,9 +7,7 @@ export default function Home() {
     <section className='py-24'>
       <div className='container max-w-3xl'>
         <Intro />
-        {/* @ts-expect-error Server Component */}
         <RecentPosts />
-        {/* @ts-expect-error Server Component */}
         <RecentProjects />
       </div>
     </section>
